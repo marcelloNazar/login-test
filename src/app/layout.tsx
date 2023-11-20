@@ -16,11 +16,9 @@ export default function RootLayout({
     <html lang="en">
       <Providers>
         <body
-          className={`flex h-screen mx-auto bg-black text-gray-400`}
+          className={`flex h-screen w-screen mx-auto bg-black text-gray-400 overflow-hidde`}
         >
-          <main className="flex w-full h-full overflow-hidden">
-            {children}
-          </main>
+          <main className="flex w-full h-full overflow-hidden">{children}</main>
         </body>
       </Providers>
     </html>
