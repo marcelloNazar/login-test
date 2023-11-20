@@ -25,7 +25,7 @@ const Register = () => {
               />
               <Input
                 type="password"
-                placeholder="Password"
+                placeholder="password"
                 {...register("password")}
                 error={errors?.password?.message}
               />
