@@ -5,8 +5,8 @@ export const CredentialsResolver = yupResolver(
   Yup.object({
     email: Yup.string()
       .required("Email is required")
-      .min(6, "Email needs to be at least 6 characters.")
-      .max(50, "Email cannot exceed 50 characters."),
+      .min(6, "Username needs to be at least 6 characters.")
+      .max(50, "Username cannot exceed 50 characters."),
     password: Yup.string()
       .required("Password is required")
       .min(10, "Password must be 10+ characters.")
